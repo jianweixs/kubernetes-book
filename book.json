@@ -1,0 +1,43 @@
+{
+    "title": "Kubernetes book",
+    "author": "Jianwei Zhang",
+    "gitbook": ">= 3.2.2",
+    "language": "zh-cn",
+    "plugins": [
+        "mermaid",
+        "github",
+        "editlink",
+        "anchor-navigation-ex-toc",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "tbfed-pagefooter"
+    ],
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 11
+    },
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/jianweixs/kubernetes-book"
+        },
+        "editlink": {
+            "base": "https://github.com/jianweixs/kubernetes-book",
+            "label": "编辑本页"
+        },
+        "anchor-navigation-ex-toc": {
+            "showLevel": false,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": false
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "&copy Pengfei Ni",
+            "modify_label": "Updated at",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "generator": "site"
+}
